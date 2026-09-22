@@ -83,7 +83,7 @@ Just send a link:
 
 > install the plugins from this https://www.tiktok.com/@someone/video/…
 
-Or call it explicitly with `/install_from_vid`. Anything yt-dlp supports works — Instagram,
+Or call it explicitly with `/install-from-vid`. Anything yt-dlp supports works — Instagram,
 TikTok, YouTube, X, Reddit.
 
 ## How it works

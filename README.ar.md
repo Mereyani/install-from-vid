@@ -79,7 +79,7 @@ python3 -m pip install yt-dlp faster-whisper pillow av
 
 > ثبّت لي الإضافات في هذا المقطع https://www.tiktok.com/@someone/video/…
 
-أو نادِها صراحةً بـ `/install_from_vid`. تعمل مع أي منصّة يدعمها yt-dlp — إنستغرام، تيك توك،
+أو نادِها صراحةً بـ `/install-from-vid`. تعمل مع أي منصّة يدعمها yt-dlp — إنستغرام، تيك توك،
 يوتيوب، X، ريديت.
 
 ## كيف تعمل

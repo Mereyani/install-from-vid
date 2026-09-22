@@ -88,7 +88,7 @@ Sadece bağlantıyı gönderin:
 
 > bu videodaki eklentileri kur https://www.tiktok.com/@someone/video/…
 
-Ya da `/install_from_vid` ile doğrudan çağırın. yt-dlp'nin desteklediği her platform çalışır —
+Ya da `/install-from-vid` ile doğrudan çağırın. yt-dlp'nin desteklediği her platform çalışır —
 Instagram, TikTok, YouTube, X, Reddit.
 
 ## Nasıl çalışır
