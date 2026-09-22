@@ -1,15 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "install-from-vid",
+  "name": "install-from-video",
   "description": "Turn a video recommendation into verified install commands — transcribed locally, checked against npm and GitHub, never auto-installed.",
   "owner": { "name": "Mohamed Mereyani", "url": "https://github.com/Mereyani" },
   "plugins": [
     {
-      "name": "install-from-vid",
+      "name": "install-from-video",
       "version": "0.1.0",
       "source": "./",
       "description": "Send a reel or short that recommends dev tools. The skill transcribes it on your own CPU, reads names off the screen when speech mangles them, verifies each project exists, and returns install commands for you to run.",
-      "homepage": "https://github.com/Mereyani/install-from-vid",
+      "homepage": "https://github.com/Mereyani/install-from-video",
       "license": "MIT",
       "category": "productivity",
       "keywords": ["whisper", "transcription", "local-first", "video", "plugins", "supply-chain", "verification"]

@@ -1,10 +1,10 @@
 {
-  "name": "install-from-vid",
+  "name": "install-from-video",
   "version": "0.1.0",
   "description": "Turn a video recommendation into verified install commands. Transcribes the clip locally, reads the names off the screen when speech mangles them, checks every project is real, and hands you the commands.",
   "author": { "name": "Mohamed Mereyani", "url": "https://github.com/Mereyani" },
-  "homepage": "https://github.com/Mereyani/install-from-vid",
-  "repository": "https://github.com/Mereyani/install-from-vid",
+  "homepage": "https://github.com/Mereyani/install-from-video",
+  "repository": "https://github.com/Mereyani/install-from-video",
   "license": "MIT",
   "skills": "./skills"
 }

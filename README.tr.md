@@ -1,4 +1,4 @@
-# install-from-vid
+# install-from-video
 
 **Diğer diller:** [English](README.md) · [العربية](README.ar.md)
 
@@ -66,8 +66,8 @@ Ses size listenin şeklini verir. Ekran size adları verir. İkisine birden ihti
 ## Kurulum
 
 ```bash
-claude plugin marketplace add Mereyani/install-from-vid
-claude plugin install install-from-vid@install-from-vid
+claude plugin marketplace add Mereyani/install-from-video
+claude plugin install install-from-video@install-from-video
 ```
 
 Ardından Python bağımlılıkları — Claude Code'un kullanacağı yorumlayıcıya:
@@ -88,7 +88,7 @@ Sadece bağlantıyı gönderin:
 
 > bu videodaki eklentileri kur https://www.tiktok.com/@someone/video/…
 
-Ya da `/install-from-vid` ile doğrudan çağırın. yt-dlp'nin desteklediği her platform çalışır —
+Ya da `/install-from-video` ile doğrudan çağırın. yt-dlp'nin desteklediği her platform çalışır —
 Instagram, TikTok, YouTube, X, Reddit.
 
 ## Nasıl çalışır

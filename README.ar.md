@@ -1,4 +1,4 @@
-# install-from-vid
+# install-from-video
 
 **بلغات أخرى:** [English](README.md) · [Türkçe](README.tr.md)
 
@@ -58,8 +58,8 @@
 ## التثبيت
 
 ```bash
-claude plugin marketplace add Mereyani/install-from-vid
-claude plugin install install-from-vid@install-from-vid
+claude plugin marketplace add Mereyani/install-from-video
+claude plugin install install-from-video@install-from-video
 ```
 
 ثم اعتماديات بايثون، في المفسّر الذي سيستخدمه Claude Code:
@@ -79,7 +79,7 @@ python3 -m pip install yt-dlp faster-whisper pillow av
 
 > ثبّت لي الإضافات في هذا المقطع https://www.tiktok.com/@someone/video/…
 
-أو نادِها صراحةً بـ `/install-from-vid`. تعمل مع أي منصّة يدعمها yt-dlp — إنستغرام، تيك توك،
+أو نادِها صراحةً بـ `/install-from-video`. تعمل مع أي منصّة يدعمها yt-dlp — إنستغرام، تيك توك،
 يوتيوب، X، ريديت.
 
 ## كيف تعمل

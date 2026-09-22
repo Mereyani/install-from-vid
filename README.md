@@ -1,4 +1,4 @@
-# install-from-vid
+# install-from-video
 
 **Read the docs in another language:** [العربية](README.ar.md) · [Türkçe](README.tr.md)
 
@@ -62,8 +62,8 @@ Audio tells you the shape of the list. The screen tells you the names. You need 
 ## Install
 
 ```bash
-claude plugin marketplace add Mereyani/install-from-vid
-claude plugin install install-from-vid@install-from-vid
+claude plugin marketplace add Mereyani/install-from-video
+claude plugin install install-from-video@install-from-video
 ```
 
 Then the Python dependencies, into whichever interpreter Claude Code will use:
@@ -83,7 +83,7 @@ Just send a link:
 
 > install the plugins from this https://www.tiktok.com/@someone/video/…
 
-Or call it explicitly with `/install-from-vid`. Anything yt-dlp supports works — Instagram,
+Or call it explicitly with `/install-from-video`. Anything yt-dlp supports works — Instagram,
 TikTok, YouTube, X, Reddit.
 
 ## How it works

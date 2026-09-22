@@ -1,9 +1,9 @@
 ---
-name: install-from-vid
+name: install-from-video
 description: User sends a video link (Instagram, TikTok, YouTube, X...) that recommends Claude Code plugins, MCP servers, or dev tools. Extracts the spoken and on-screen content, verifies each named project is real, and returns install commands. Use whenever a video/reel/short URL arrives with an ask to install, try, or summarise what it recommends.
 ---
 
-# install-from-vid
+# install-from-video
 
 Turn a video recommendation into verified install commands. Two passes: the cheap one
 almost always suffices.
@@ -11,7 +11,7 @@ almost always suffices.
 ## 1. Audio pass — always
 
 ```bash
-python3 "${CLAUDE_PLUGIN_ROOT}/skills/install-from-vid/extract.py" "<URL>" "<scratchpad>/vid"
+python3 "${CLAUDE_PLUGIN_ROOT}/skills/install-from-video/extract.py" "<URL>" "<scratchpad>/vid"
 ```
 
 Downloads audio only and transcribes it locally on the CPU. **Costs no tokens and no
@@ -28,7 +28,7 @@ Login-walled or DRM video: say so and ask the user for the names. Do not guess.
 ## 2. Frame pass — only when a name is unclear
 
 ```bash
-python3 "${CLAUDE_PLUGIN_ROOT}/skills/install-from-vid/extract.py" "<URL>" "<scratchpad>/vid" --frames
+python3 "${CLAUDE_PLUGIN_ROOT}/skills/install-from-video/extract.py" "<URL>" "<scratchpad>/vid" --frames
 ```
 
 Adds tiled contact sheets you read with the Read tool. **This is the expensive step** —
