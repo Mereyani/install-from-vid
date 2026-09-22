@@ -1,0 +1,6 @@
+vid/
+*.m4a
+*.mp4
+*.jpg
+transcript.txt
+__pycache__/
