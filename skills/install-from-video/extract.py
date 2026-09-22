@@ -30,8 +30,12 @@ def check_deps(need_frames):
     if missing:
         sys.exit(
             f"Missing dependencies: {', '.join(missing)}\n"
-            f"Install them into THIS interpreter:\n"
-            f"  {sys.executable} -m pip install {' '.join(missing)}"
+            f"This ran under: {sys.executable}\n\n"
+            f"Either install them here:\n"
+            f"  {sys.executable} -m pip install {' '.join(missing)}\n\n"
+            f"Or re-run with a Python that already has them — a venv, a conda env,\n"
+            f"or a pyenv shim. A bare `python3` often resolves to the system\n"
+            f"interpreter, which is rarely the one your packages live in."
         )
 
 

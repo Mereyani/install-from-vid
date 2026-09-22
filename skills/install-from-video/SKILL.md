@@ -18,8 +18,10 @@ Downloads audio only and transcribes it locally on the CPU. **Costs no tokens an
 money** — nothing leaves the machine. Pass `--lang` with an ISO code (`ar`, `tr`, `es`, `en`,
 …) when you already know the language; omit it and the model detects it.
 
-If it exits complaining about missing dependencies, it names the exact interpreter and the
-pip line to fix it. Run that, then retry.
+If it exits complaining about missing dependencies, it prints which interpreter it ran
+under. Do not blindly pip-install into that one — a bare `python3` is often the system
+interpreter. Look for the venv or conda Python that already has the packages and call it
+by absolute path instead; only install if no such interpreter exists.
 
 Read the transcript. It gives you the number of tools, their order, and what each does.
 
